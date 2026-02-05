@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+h1 {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    height: 300px;
+    border: 2px dotted black;
+    border-radius: 15px;
+    border-spacing: 7px;
+    background-color: white;
+}
+
+th,
+td {
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:hover td,
+tr:hover th,
+tr:hover .estudiar {
+    background-color: #D6EEEE;
+}
+
+.estudiar.oscuro {
+    background-color: #005eff;
+    color: black;
+    font-weight: bold;
+}
+
+.estudiar.claro {
+    background-color: #dff9f7;
+    color: black;
+    font-weight: bold;
+}
+
+.clases {
+    background-color: #005eff;
+    color: white;
+    font-weight: bold;
+}
+
+.descansar {
+    background-color: #003f9e;
+    color: white;
+    font-weight: bold;
+}
+
+.bloques {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
